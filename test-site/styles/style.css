@@ -1,0 +1,76 @@
+html {
+	/* comments :> */
+	font-size: 10px;
+	font-family: "lato", sans-serif;
+	background-color: #f76882;
+}
+
+body {
+	width: 1000px;
+	margin: 50px auto;
+	background-color: #facfc8;
+	padding: 0 20px 20px 20px;
+	box-shadow: 5px 5px 20px red;
+}
+
+::selection {
+	color: lightyellow;
+	background: tomato;
+}
+
+h1 {
+	margin:  0;
+	padding: 20px 0;
+	font-size: 50px;
+	text-align: center;
+	color: crimson;
+	text-shadow: 3px 3px 10px orange;
+}
+
+h2 {
+	font-size: 20px;
+	color: crimson;
+}
+
+h3 {
+	font-size: 15px;
+	color: crimson;
+}
+
+p, li {
+	color: black;
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+img {
+	width: 800px;
+	display: block;
+	margin: 25px auto;
+	box-shadow: 1px 1px 5px tomato;
+}
+
+a {
+	color: red;
+}
+
+a:hover {
+	color: tomato;
+}
+
+ul > li {
+	color: tomato;
+}
+
+ul > li:hover {
+	color: crimson;
+}
+
+button {
+	margin-left: 20px;
+}
+
+#user {
+	float: right;
+}
